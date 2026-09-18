@@ -1,0 +1,10 @@
+Build verification: PASS
+Compiler: GNU C++ 14.2.0
+C++ standard: C++17
+Automated test suite: PASS
+1/1 tests passed
+
+Command used:
+cmake -S . -B build
+cmake --build build -j2
+ctest --test-dir build --output-on-failure
